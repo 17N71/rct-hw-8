@@ -1,7 +1,6 @@
 import CustomInput, {CustomInput as UnMemoizedInput} from "./CustomInput.jsx";
-import {useCallback, useMemo, useState} from "react";
+import {useCallback, useState} from "react";
 function App() {
-  const [count,setCount] = useState(0)
   const [value,setValue] = useState('')
   const [value1,setValue1] = useState('')
   const [value2,setValue2] = useState('')
